@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="row row-flex">
-          <div class="col-md-7 text-center hidden-xs">
+          <div class="col-md-6 text-center hidden-xs">
             <div class="bp-15">
               <img src="img/what-we-do.png" class="brand-img-lg">
             </div>
@@ -124,6 +124,7 @@
               </ul>
             </div> -->
           </div>
+          <div class="col-md-1"></div>
         </div>
       </div>
     </div><!-- /what we do -->
