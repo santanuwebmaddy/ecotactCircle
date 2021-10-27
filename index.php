@@ -20,7 +20,7 @@
             <div class="col-md-8 col-md-offset-2">
               <div class="text-area">
                 <h3>Welcome to</h3>
-                <img src="https://via.placeholder.com/360x360" class="mt-15 logo mb-30">
+                <img src="img/welcome-image.jpg" class="mt-15 logo mb-30">
                 <p class="p-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -35,14 +35,67 @@
     <!-- what we do -->
     <div class="section">
       <div class="container">
+        <div class="row visible-xs mb-30">
+          <div class="col-xs-10 col-xs-offset-1">
+            <img src="img/what-we-do.png" class="brand-img-lg img-reponsive">
+          </div>
+        </div>
         <div class="row row-flex">
           <div class="col-md-7 text-center hidden-xs">
             <div class="bp-15">
-              <img src="https://via.placeholder.com/720x720" class="brand-img-lg">
+              <img src="img/what-we-do.png" class="brand-img-lg">
             </div>
           </div>
           <div class="col-md-5 col-xs-10 col-xs-offset-1">
+
+
             <div class="bp-15">
+              <div class="panel-group what-we-do-new" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a style="color: #007642; margin-left:5px;" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span>●</span> <b>Connect</b> for peer assist
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      For knowledge, intelligence and inspiration.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a style="color:#c3cb47; margin-left:5px;" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span>●</span> <b>Collaborate</b> for growth
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body" style="background-color:#c3cb47;">
+                      For innovation, progress and support
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a style="color: #62b351; margin-left:5px;" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span>●</span> <b>Care</b> for the ecosystem
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body" style="background-color:#62b351;">
+                      For uplifting the community and a sustainable future
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="bp-15">
               <ul class="list-unstyled what-we-do">
                 <li>
                   <h3 href="#" style="color:#007642;" id="connect">
@@ -69,7 +122,7 @@
                   </h3>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -86,7 +139,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="https://via.placeholder.com/360x360" class="mb-15">
+                <img src="img/clock.jpg" class="mb-15">
                 <p>Round-the-clock know-how to spurt your growth</p>
               </div>
             </div>
@@ -94,7 +147,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="https://via.placeholder.com/360x360" class="mb-15">
+                <img src="img/support.jpg" class="mb-15">
                 <p>Customer <br> support</p>
               </div>
             </div>

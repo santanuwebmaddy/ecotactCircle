@@ -90,6 +90,9 @@ a:focus,
   font-size: 25px;
   letter-spacing: -0.2px;
 }
+.img-reponsive {
+  width: 100%;
+}
 form {
   padding: 20px 35px;
 }
@@ -141,8 +144,8 @@ form .form-control {
             align-items: center;
   }
   .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .section-sm {
     padding-top: 25px;
@@ -391,6 +394,55 @@ what-we-do
   max-width: 400px;
   margin: 0 auto;
 }
+.what-we-do-new .panel-title {
+  font-size: 28px;
+  letter-spacing: -1px;
+  display: block;
+  position: relative;
+  margin-left: 20px;
+}
+.what-we-do-new .panel-title span {
+  position: absolute;
+  font-size: 45px;
+  line-height: 1.2;
+  left: -26px;
+  margin-top: -15px;
+}
+.what-we-do-new .panel-default > .panel-heading {
+  color: #333;
+  background-color: transparent ;
+  border-color: transparent;
+}
+.what-we-do-new .panel-heading {
+  padding: 0px;
+}
+.what-we-do-new .panel-default {
+  border-color: transparent;
+}
+.what-we-do-new .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: transparent;
+  font-size: 19px;
+  color: #fbfdda;
+  background: #207642;
+  padding: 16px 18px;
+  font-weight: 400;
+  letter-spacing: initial;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+.what-we-do-new .panel {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .what-we-do-new .panel-title {
+    font-size: 22px;
+  }
+  .what-we-do-new .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    font-size: 16px;
+  }
+}
 .what-we-do li {
   margin-bottom: 20px;
 }
@@ -426,6 +478,16 @@ what-we-do
 }
 .what-we-do li h3.care-details {
   background: #62b351;
+}
+@media only screen and (max-width: 767px) {
+  .what-we-do li h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .what-we-do li h3.onClick {
+    font-size: 16px;
+    line-height: 1.3;
+  }
 }
 /*
 ----------------------------------
