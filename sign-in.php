@@ -32,7 +32,7 @@
 								  <button type="submit" class="btn btn-primary">Sign up</button>
 								</form>
 								<div class="create-account mt-30">
-									<h3>New user? <span>Create an account</span></h3>
+									<h3>New user? <a href="#"><span>Create an account</span></a></h3>
 								</div>
               </div>
             </div>

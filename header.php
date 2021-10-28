@@ -11,13 +11,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <!-- owl.carousel -->
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
     <!-- custom -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css?v=1.0">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +27,8 @@
   </head>
   <body>
     
-    
+    <!-- Page loader -->
+    <div class="se-pre-con"></div>
     <!-- banner -->
     <div id="home" class="banner parallax-window" data-parallax="scroll" data-image-src="img/banner.jpg">
       <!-- navbar -->

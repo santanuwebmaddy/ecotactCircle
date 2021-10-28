@@ -34,7 +34,7 @@
       </div>
     </div><!-- /welcome section -->
     
-    <div class="section-sm">
+    <!-- <div class="section-sm">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-12">
@@ -42,20 +42,22 @@
     			</div>
     		</div>
     		<div class="row">
-    			<?php
-            for ($i=1; $i <=12 ; $i++) { 
-              ?>
-              <div class="col-md-4">
-                <img src="https://via.placeholder.com/360x300" class="img-responsive mb-30">
-              </div>
-              <?php
-            }
-          ?>
+    			<div class="col-md-4">
+    				<img src="https://via.placeholder.com/360x300" class="img-responsive mb-30">
+    				<img src="https://via.placeholder.com/360x300" class="img-responsive mb-30">
+    			</div>
+    			<div class="col-md-4">
+    				<img src="https://via.placeholder.com/360x630" class="img-responsive mb-30">
+    			</div>
+    			<div class="col-md-4">
+    				<img src="https://via.placeholder.com/360x300" class="img-responsive mb-30">
+    				<img src="https://via.placeholder.com/360x300" class="img-responsive mb-30">
+    			</div>
     		</div>
     	</div>
-    </div>
+    </div> -->
 
-    <!-- <div class="mb-30">
+    <div class="section-sm">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-12">
@@ -86,7 +88,7 @@
     			</div>
     		</div>
     	</div>
-    </div> -->
+    </div>
 
 
 <?php include_once('footer.php'); ?>

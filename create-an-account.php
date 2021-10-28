@@ -46,11 +46,20 @@
 								    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your age">
 								  </div>
 								  <div class="form-group">
-								    <label for="exampleInputEmail1">Gender</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your gender">
+								    <label for="exampleInputEmail1">Gender</label> <br>
+								    <label class="radio-inline">
+										  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+										</label>
+										<label class="radio-inline">
+										  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
+										</label>
+								    <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your gender"> -->
 								  </div>
 								  <button type="submit" class="btn btn-primary">Sign up</button>
 								</form>
+								<div class="create-account mt-30">
+									<h3>New user? <a href="#"><span>Create an account</span></a></h3>
+								</div>
               </div>
             </div>
           </div>
