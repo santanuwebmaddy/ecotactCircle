@@ -87,6 +87,8 @@
     <script src="js/jquery.magnific-popup.js"></script>
     <!-- owl.carousel -->
     <script src="js/owl.carousel.js"></script>
+    <!-- lity -->
+    <script src="js/lity.js"></script>
     <!-- custom -->
     <script src="js/custom.js"></script>
   </body>

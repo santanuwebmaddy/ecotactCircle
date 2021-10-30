@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
     <!-- magnific-popup -->
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <!-- lity -->
+    <link rel="stylesheet" type="text/css" href="css/lity.css">
     <!-- custom -->
     <link rel="stylesheet" type="text/css" href="css/custom.css?v=1.0">
 

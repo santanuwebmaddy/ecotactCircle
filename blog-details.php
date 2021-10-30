@@ -33,52 +33,29 @@
     <div class="section-sm">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <div class="single-blog">
-              <img src="https://via.placeholder.com/800x500" class="mb-15">
-              <p><span><i class="las la-clock"></i> November 01, 2021</span></p>
-              <div class="content mb-30">
-                <h2>How find low interest rate for home loan.</h2>
-                <p>Consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa.  </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="row">
-              <div class="col-md-12 mb-15">
-                <h2 class="recent-post-title">RECENT POST</h2>
-              </div>
-              <?php
-                for ($i=1; $i <=6 ; $i++) { 
-                  ?>
-                  <div class="col-md-12 mb-15">
-                    <div class="media recent-post">
-                      <div class="media-left">
-                        <a href="#">
-                          <img class="media-object" src="https://via.placeholder.com/800x600" style="width:100px;" alt="...">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <p><small><i class="las la-clock"></i> November 01, 2021</small></p>
-                        <h4>How find low interest rate for home loan.</h4>
-                      </div>
-                    </div>
+              <img src="https://via.placeholder.com/1600x700" class="mb-15">
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <p><span><i class="las la-clock"></i> November 01, 2021</span></p>
+                  <div class="content mb-30">
+                    <h2>How find low interest rate for home loan.</h2>
+                    <p>Consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa.  </p>
                   </div>
-
-                  <?php
-                }
-                ?>
+                </div>
+              </div>
             </div>
           </div>
         </div>

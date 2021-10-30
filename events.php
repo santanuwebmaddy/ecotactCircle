@@ -78,13 +78,39 @@
     						</ul>
     					</div>
     					<div class="col-md-12 text-center">
-    						<a href="#" class="btn btn-secondary">Register</a>
+    						<a href="#inline" data-lity class="btn btn-secondary">Register</a>
     					</div>
     				</div>
     			</div>
     		</div>
     	</div>
     </div>
+    
+    <div id="inline"  style="background:#fff" class="lity-hide">
+      <img src="img/logo-green.svg" class="mb-10">
+      <h3>In which event you want to join for?</h3>
+      <form style="padding:0px;">
+        <div class="form-group">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              <h4>SCA <span class="pull-right">12.09.2021</span></h4>
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              <h4>Ecotact Connect <span class="pull-right">12.09.2021</span></h4>
+            </label>
+          </div>
+        </div>
+        <a href="#inline" data-lity="" class="btn btn-secondary mt-15">Register</a>
+      </form>
+    </div>
 
+
+    <style>
+      
+    </style>
 
 <?php include_once('footer.php'); ?>
