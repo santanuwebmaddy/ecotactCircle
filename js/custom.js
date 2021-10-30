@@ -37,3 +37,10 @@ $('.testimonial-carousel').owlCarousel({
     }
   }
 });
+
+ $('.image-popup').magnificPopup({
+  type: 'image',
+   gallery:{ 
+    enabled: true 
+  }
+});

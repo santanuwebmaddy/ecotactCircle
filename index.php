@@ -21,11 +21,7 @@
               <div class="text-area">
                 <h3>Welcome to</h3>
                 <img src="img/welcome-image.jpg" class="mt-15 logo mb-30">
-                <p class="p-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="p-lg">A center for growth, knowledge and support for Ecotact stakeholders in the packaging and grain industry. A community of driven businesses that support each other and the world, and uplift the society with forums, events, sustainability drives and care</p>
               </div>
             </div>
           </div>
@@ -140,7 +136,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="img/clock.jpg" class="mb-15">
+                <img src="img/clock.png" class="mb-15">
                 <p>Round-the-clock know-how to spurt your growth</p>
               </div>
             </div>
@@ -148,7 +144,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="img/support.jpg" class="mb-15">
+                <img src="img/support.png" class="mb-15" style="width:70px;">
                 <p>Customer <br> support</p>
               </div>
             </div>
@@ -156,7 +152,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="https://via.placeholder.com/360x360" class="mb-15">
+                <img src="img/csr.png" class="mb-15" style="width:80px;">
                 <p>Partners in <br> CSR drives</p>
               </div>
             </div>
@@ -164,7 +160,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="https://via.placeholder.com/360x360" class="mb-15">
+                <img src="img/csr-honor.png" class="mb-15" style="width:40px;">
                 <p>CSR honor <br> certificates</p>
               </div>
             </div>
@@ -172,7 +168,7 @@
           <div class="col-md-15 col-sm-4">
             <div class="circle">
               <div class="content text-center">
-                <img src="https://via.placeholder.com/360x360" class="mb-15">
+                <img src="img/sales.png" class="mb-15">
                 <p>Sales <br> training</p>
               </div>
             </div>

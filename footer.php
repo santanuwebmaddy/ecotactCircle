@@ -83,6 +83,8 @@
     <script src="js/bootstrap.min.js"></script>
      <!-- parallax -->
     <script src="js/parallax.js"></script>
+    <!-- jquery.magnific-popup -->
+    <script src="js/jquery.magnific-popup.js"></script>
     <!-- owl.carousel -->
     <script src="js/owl.carousel.js"></script>
     <!-- custom -->

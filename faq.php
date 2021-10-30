@@ -20,12 +20,8 @@
         <div class="col-md-8 col-md-offset-2">
           <div class="text-area">
             <h3>Welcome to</h3>
-            <img src="https://via.placeholder.com/360x360" class="mt-15 logo mb-30">
-            <p class="p-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.</p>
+            <img src="img/welcome-image.jpg" class="mt-15 logo mb-30">
+            <p class="p-lg">A center for growth, knowledge and support for Ecotact stakeholders in the packaging and grain industry. A community of driven businesses that support each other and the world, and uplift the society with forums, events, sustainability drives and care</p>
           </div>
         </div>
       </div>

@@ -542,6 +542,8 @@ Features
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .circle .content {
   position: absolute;
@@ -553,8 +555,8 @@ Features
   text-align: center;
 }
 .circle .content img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: auto;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -562,6 +564,11 @@ Features
   color: #3c3c3c;
   font-weight: 500;
   line-height: 1.3;
+}
+.circle:hover {
+  background-color: #bed584;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 @media only screen and (max-width: 767px) {
   .circle {
@@ -935,4 +942,84 @@ create-account
 }
 #style-3::-webkit-scrollbar-thumb {
   background-color: #000000;
+}
+/*
+----------------------------------
+image hover
+----------------------------------
+*/
+.img-hover {
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.img-hover .box-content {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.img-hover .box-content i {
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.img-hover .box-content:hover {
+  opacity: 1;
+}
+/*
+----------------------------------
+blog
+----------------------------------
+*/
+.blog {
+  max-width: 360px;
+  margin: 0 auto;
+}
+.blog h2 {
+  font-size: 23px;
+  margin-bottom: 8px;
+  color: #007742;
+}
+.blog p {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #333;
+}
+.single-blog img {
+  width: 100%;
+}
+.single-blog .content h2 {
+  color: #007742;
+  margin-bottom: 15px;
+  font-size: 34px;
+}
+.single-blog .content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+/*
+----------------------------------
+recent post
+----------------------------------
+*/
+.recent-post p {
+  margin-bottom: 5px;
+}
+.recent-post h4 {
+  color: #007742;
+}
+.recent-post-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #20773f;
 }

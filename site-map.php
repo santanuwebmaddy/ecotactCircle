@@ -12,6 +12,8 @@
 					<li><a href="knowledge-center-list.php">Knowledge Center List</a></li>
 					<li><a href="knowledge-center.php">Knowledge Center</a></li>
 					<li><a href="events.php">Events</a></li>
+					<li><a href="blog.php">Blog</a></li>
+					<li><a href="blog-details.php">Blog Details</a></li>
 				</ol>
 			</div>
 		</div>
