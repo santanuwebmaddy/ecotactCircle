@@ -4,7 +4,7 @@
     <div class="welcome-section">
       <div class="container">
         <div class="welcome-content">
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-12 text-center">
               <ul class="list-inline">
                 <li><a href="#">Knowledge Center</a></li>
@@ -13,10 +13,10 @@
                 <li><a href="#">Upcoming Events</a></li>
                 <li><a href="#">FAQ's</a></li>
                 <li><a href="#">Member Log in</a></li>
-                <li><a href="#"><div class="search"><!-- <i class="las la-search"></i> --></div></a></li>
+                <li><a href="#"><div class="search"></div></a></li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <div class="row text-center">
             <div class="col-md-8 col-md-offset-2">
               <div class="text-area">

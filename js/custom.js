@@ -4,7 +4,13 @@ $(window).load(function() {
 
 $('.parallax-window').parallax();
 
-
+$(window).on('scroll',function(){
+  if ($(window).scrollTop() > 0) {
+    $('.navbar').addClass('shrink-nav');
+  } else {
+    $('.navbar').removeClass('shrink-nav')
+  }
+});
 $(document).ready(function(){
   $("#connect").click(function(){
     $(".connect-details").toggle();

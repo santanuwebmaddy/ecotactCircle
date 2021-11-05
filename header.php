@@ -36,7 +36,7 @@
     <!-- banner -->
     <div id="home" class="banner parallax-window" data-parallax="scroll" data-image-src="img/banner.jpg">
       <!-- navbar -->
-      <nav class="navbar navbar-inverse  transition main-nav">
+      <nav class="navbar navbar-inverse transition navbar-fixed-top main-nav">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -51,7 +51,7 @@
             </a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <!-- <ul class="nav navbar-nav navbar-right">
               <li><a href="#home">About Us</a></li>
               <li><a href="#services">Product <i class="las la-angle-down i-small"></i></a></li>
               <li><a href="#about">Sustainability</a></li>
@@ -61,6 +61,16 @@
               <li><a href="#" class="less-padding"><i class="las la-globe-europe"></i></a></li>
               <li><a href="#" class="less-padding"><i class="lar la-envelope"></i></a></li>
               <li><a href="#" class="less-padding"><img src="img/flag.png"><i class="las la-angle-down i-small"></i></a></li>
+            </ul> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Knowledge Center</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Upcoming Events</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">Member Log in</a></li>
+              <li><a href="#"><div class="search"><!-- <i class="las la-search"></i> --></div></a></li>
             </ul>
           </div>
         </div>

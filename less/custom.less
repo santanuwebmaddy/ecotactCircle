@@ -253,17 +253,26 @@ form{
   }
 }
 .shrink-nav {
-  padding-top:0px;
-  padding-bottom: 0px;
+  padding-top:10px;
+  padding-bottom: 8px;
   background-color: #222;
   -webkit-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
   .transition;
+  .navbar-brand{
+      max-width: 200px;
+      padding: 5px 15px;
+      position: relative;
+      top: -5px;
+      img{
+        max-width: 100%;
+      }
+    }
   .nav{
     li{
       a{
-        color:#d2d2d2;
+        color:#fff;
       }
       &:last-of-type > a {
         margin-right: 15px;
@@ -296,9 +305,20 @@ form{
     padding-top: 0px;
     padding-bottom: 0px;
     background: #222;
+    .navbar-brand{
+      max-width: 200px;
+      padding: 5px 15px;
+      position: relative;
+      top: -5px;
+      img{
+        max-width: 75%;
+        position: relative;
+        top: 6px;
+      }
+    }
   }
 }
-
+    
 /*
 ----------------------------------
 4.banner
@@ -703,7 +723,7 @@ welcome section
       }
     }
     .text-area{
-      margin-top: 70px;
+      margin-top: 20px;
       h3{
         color: @primary-color;
         font-size: 20px;

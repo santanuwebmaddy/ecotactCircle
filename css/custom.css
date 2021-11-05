@@ -255,8 +255,8 @@ form .form-group .form-control:focus {
   color: #fff;
 }
 .shrink-nav {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 8px;
   background-color: #222;
   -webkit-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
@@ -264,8 +264,17 @@ form .form-group .form-control:focus {
   transition: all 0.3s;
   text-decoration: none;
 }
+.shrink-nav .navbar-brand {
+  max-width: 200px;
+  padding: 5px 15px;
+  position: relative;
+  top: -5px;
+}
+.shrink-nav .navbar-brand img {
+  max-width: 100%;
+}
 .shrink-nav .nav li a {
-  color: #d2d2d2;
+  color: #fff;
 }
 .shrink-nav .nav li:last-of-type > a {
   margin-right: 15px;
@@ -288,6 +297,17 @@ form .form-group .form-control:focus {
     padding-top: 0px;
     padding-bottom: 0px;
     background: #222;
+  }
+  .main-nav .navbar-brand {
+    max-width: 200px;
+    padding: 5px 15px;
+    position: relative;
+    top: -5px;
+  }
+  .main-nav .navbar-brand img {
+    max-width: 75%;
+    position: relative;
+    top: 6px;
   }
 }
 /*
@@ -662,7 +682,7 @@ welcome section
   font-size: 20px;
 }
 .welcome-section .welcome-content .text-area {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .welcome-section .welcome-content .text-area h3 {
   color: #007742;
