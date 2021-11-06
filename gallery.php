@@ -38,10 +38,12 @@
     			</div>
     		</div>
     		<div class="row">
-    			<?php
-            for ($i=1; $i <=9; $i++) { 
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme gallery-carousel">
+              <?php
+              for ($i=0; $i <=10 ; $i++) { 
               ?>
-              <div class="col-md-4">
+              <div class="item">
                 <a class="image-popup" href="https://via.placeholder.com/720x500" title="Gallery Image">
                   <div class="img-hover">
                     <img src="https://via.placeholder.com/360x300">
@@ -51,24 +53,67 @@
                   </div>
                 </a>
               </div>
-
-
-              <!-- <a class="image-popup" href="assets/img/projects/project-1.jpg" title="Shampoo Promotes">
-                <img src="assets/img/icons/full-screen.png" alt="icons" class="icons">
-              </a> -->
-              <!-- <div class="col-md-4">
-                <div class="img-hover">
-                  <img src="https://via.placeholder.com/360x300" class="img-responsive mb-30">
-                  <div class="box-content">
-                    <img src="http://markobrando.com/gafa/img/loupe.svg">
-                  </div>
-                </div>
-              </div> -->
               <?php
-            }
-          ?>
+              }
+              ?>
+            </div>
+          </div>
     		</div>
     	</div>
+    </div>
+
+    <div class="section-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title text-center mb-15">Upcoming events</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="list-unstyled events-list">
+                  <li>
+                    <a href="#">
+                      <h3>SCA <span class="pull-right">12.09.2021</span></h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <h3>Ecotact Connect <span class="pull-right">12.09.2021</span></h3>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-12 text-center">
+                <a href="#inline" data-lity class="btn btn-secondary">Register</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="inline"  style="background:#fff" class="lity-hide">
+      <img src="img/logo-green.svg" class="mb-10">
+      <h3>In which event you want to join for?</h3>
+      <form style="padding:0px;">
+        <div class="form-group">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              <h4>SCA <span class="pull-right">12.09.2021</span></h4>
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              <h4>Ecotact Connect <span class="pull-right">12.09.2021</span></h4>
+            </label>
+          </div>
+        </div>
+        <a href="#"class="btn btn-secondary mt-15">Register</a>
+      </form>
     </div>
 
     <!-- <div class="mb-30">

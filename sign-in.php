@@ -29,7 +29,7 @@
 								    <label for="exampleInputEmail1">Password</label>
 								    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your name of the company">
 								  </div>
-								  <button type="submit" class="btn btn-primary">Sign up</button>
+								  <button type="submit" class="btn btn-primary">Sign up</button> <a href="#" class="pull-right" style="position: relative; vertical-align: bottom; color: #207742; font-weight: 500; top: 16px;">Forgot password?</a>
 								</form>
 								<div class="create-account mt-30">
 									<h3>New user? <a href="#"><span>Create an account</span></a></h3>

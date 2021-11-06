@@ -214,12 +214,13 @@ form{
   .nav{
     li{
       a{
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
         color: #fff;
         letter-spacing: .5px;
         padding-left:11px;
         padding-right:11px;
+        text-transform: uppercase;
         &:hover{
           color: #fff;
         }
@@ -253,18 +254,15 @@ form{
   }
 }
 .shrink-nav {
-  padding-top:10px;
-  padding-bottom: 8px;
+  padding-top:6px;
+  padding-bottom: 3px;
   background-color: #222;
-  -webkit-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.4);
   .transition;
   .navbar-brand{
-      max-width: 200px;
+      max-width: 190px;
       padding: 5px 15px;
       position: relative;
-      top: -5px;
+      top: -4px;
       img{
         max-width: 100%;
       }
@@ -279,6 +277,17 @@ form{
       }
     }
   }
+  .dropdown-menu{
+    background-color: #222;
+    li{
+      background-color: #222;
+      a{
+        &:hover{
+        background-color: #363636 !important;
+        }
+      }
+    }
+  }
 }
 .main-nav .navbar-nav>.active>a,
 .main-nav .navbar-nav>.active>a:hover
@@ -289,12 +298,33 @@ form{
 .shrink-nav .navbar-nav>.active>a:hover{
   background-color: #0e0e0e !important;
 }
+.nav2{
+  padding:12px 15px 9px;
+  background: #e6efd0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  ul{
+    margin-bottom: 0px;
+    li{
+      font-weight: 500;
+      a{
+        color: #505050;
+      }
+    }
+  }
+}
+
+
+
 @media only screen and (max-width: 991px){
   .main-nav{
     .nav{
       li{
         a{
           font-size: 13px;
+           padding-top: 5px;
+         padding-bottom: 5px;
         }
       }
     }
@@ -728,6 +758,10 @@ welcome section
         color: @primary-color;
         font-size: 20px;
         font-weight:400;
+        span.dot{
+          position: absolute;
+          left: 30px;
+        }
       }
       .logo{
         max-width: 200px;
@@ -1053,7 +1087,29 @@ image hover
 .img-hover .box-content:hover{
   opacity: 1;
 }
-
+.gallery-carousel .owl-nav button {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  left: -6%;
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #001922 !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 50px !important;
+  background: #fff !important;
+  border: 1px solid @primary-color !important;
+  background: #e2e2e2;
+  color: @primary-color;
+}
+.gallery-carousel .owl-nav .owl-next {
+  right: -6%;
+  left: auto;
+}
 
 
 /*

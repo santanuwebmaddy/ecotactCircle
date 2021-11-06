@@ -53,64 +53,9 @@
     	</div>
     </div> -->
 
-    <div class="section-sm">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<h2 class="title text-center mb-15">Upcoming events</h2>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-md-8 col-md-offset-2">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<ul class="list-unstyled events-list">
-    							<li>
-    								<a href="#">
-    									<h3>SCA <span class="pull-right">12.09.2021</span></h3>
-    								</a>
-    							</li>
-    							<li>
-    								<a href="#">
-    									<h3>Ecotact Connect <span class="pull-right">12.09.2021</span></h3>
-    								</a>
-    							</li>
-    						</ul>
-    					</div>
-    					<div class="col-md-12 text-center">
-    						<a href="#inline" data-lity class="btn btn-secondary">Register</a>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
-    
-    <div id="inline"  style="background:#fff" class="lity-hide">
-      <img src="img/logo-green.svg" class="mb-10">
-      <h3>In which event you want to join for?</h3>
-      <form style="padding:0px;">
-        <div class="form-group">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="">
-              <h4>SCA <span class="pull-right">12.09.2021</span></h4>
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="">
-              <h4>Ecotact Connect <span class="pull-right">12.09.2021</span></h4>
-            </label>
-          </div>
-        </div>
-        <a href="#inline" data-lity="" class="btn btn-secondary mt-15">Register</a>
-      </form>
-    </div>
 
 
-    <style>
-      
-    </style>
+
+   
 
 <?php include_once('footer.php'); ?>

@@ -39,7 +39,7 @@
             <div class="col-md-4 mt-30">
               <a href="blog-details.php">
                 <div class="blog">
-                  <img src="https://via.placeholder.com/360x250" class="mb-15">
+                  <img src="https://via.placeholder.com/360x360" class="mb-15">
                   <p><i class="las la-clock"></i> November 01, 2021</p>
                   <h2>How find low interest rate for home loan.</h2>
                 </div>
