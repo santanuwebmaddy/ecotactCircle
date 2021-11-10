@@ -78,7 +78,7 @@
               </ul>
             </div>
           </div>
-        </nav><!-- /navbar -->
+        </nav>
         <div class="nav2 text-center hidden-xs hidden-sm">
           <ul class="list-inline">
             <li><a href="#">Home</a></li>
