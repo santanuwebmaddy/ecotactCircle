@@ -79,7 +79,7 @@
             </div>
           </div>
         </nav>
-        <div class="nav2 text-center hidden-xs hidden-sm">
+        <!-- <div class="nav2 text-center hidden-xs hidden-sm">
           <ul class="list-inline">
             <li><a href="#">Home</a></li>
             <li>|</li>
@@ -95,7 +95,7 @@
             <li>|</li>
             <li><a href="#">Member Log in</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
       <div class="overlay"></div>
       <div class="banner-content">
