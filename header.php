@@ -36,67 +36,57 @@
     <!-- banner -->
     <div id="home" class="banner parallax-window" data-parallax="scroll" data-image-src="img/banner.jpg">
       <!-- navbar -->
-      <div class="navbar-fixed-top">
-        <nav class="navbar navbar-inverse transition main-nav shrink-nav">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.php">
-                <img src="img/logo-white.svg" alt="logo">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">About Us</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <i class="las la-angle-down i-small"></i></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Sustainability</a></li>
-                <li><a href="#">Initiatives</a></li>
-                <li><a href="#">Ecotact Circle</a></li>
-                <li><a href="#">Blog</a></li>
-                <li class="visible-sm visible-xs"><a href="#">Knowledge Center</a></li>
-                <li class="visible-sm visible-xs"><a href="#">Blog</a></li>
-                <li class="visible-sm visible-xs"><a href="#">Gallery</a></li>
-                <li class="visible-sm visible-xs"><a href="#">Upcoming Events</a></li>
-                <li class="visible-sm visible-xs"><a href="#">FAQ's</a></li>
-                <li class="visible-sm visible-xs"><a href="#">Member Log in</a></li>
-                
-              </ul>
-            </div>
+      <nav class="navbar navbar-inverse transition navbar-fixed-top main-nav">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">
+              <img src="img/logo-white.svg" alt="logo">
+            </a>
           </div>
-        </nav>
-        <!-- <div class="nav2 text-center hidden-xs hidden-sm">
-          <ul class="list-inline">
-            <li><a href="#">Home</a></li>
-            <li>|</li>
-            <li><a href="#">Knowledge Center</a></li>
-            <li>|</li>
-            <li><a href="#">Blog</a></li>
-            <li>|</li>
-            <li><a href="#">Gallery</a></li>
-            <li>|</li>
-            <li><a href="#">Upcoming Events</a></li>
-            <li>|</li>
-            <li><a href="#">FAQ's</a></li>
-            <li>|</li>
-            <li><a href="#">Member Log in</a></li>
-          </ul>
-        </div> -->
-      </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home">About Us</a></li>
+              <li><a href="#services">Product <i class="las la-angle-down i-small"></i></a></li>
+              <li><a href="#about">Sustainability</a></li>
+              <li><a href="#project">Initiatives</a></li>
+              <li><a href="#pricing">Ecotact Circle</a></li>
+              <li><a href="#clients">Blog</a></li>
+              <li><a href="#" class="less-padding"><i class="las la-globe-europe"></i></a></li>
+              <li><a href="#" class="less-padding"><i class="lar la-envelope"></i></a></li>
+              <li><a href="#" class="less-padding"><img src="img/flag.png"><i class="las la-angle-down i-small"></i></a></li>
+            </ul> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Knowledge Center</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Upcoming Events</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">Member Log in</a></li>
+              <li class="hidden-xs hidden-sm"><a href="#"><div style="display: inline-block;" class="search"><i class="las la-search"></i></div></a></li>
+              <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><i class="las la-globe-europe"></i></a></li>
+              <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><i class="lar la-envelope"></i></a></li>
+              <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><img src="img/flag.png"><i class="las la-angle-down i-small"></i></a>
+              </li>
+              <li>
+                <ul class="visible-xs visible-sm list-inline" style="margin-top: 10px;">
+                  <li><a href="#"><i class="las la-search"></i></a></li>
+                  <li><a href="#" class="less-padding"><i class="las la-globe-europe"></i></a></li>
+                  <li><a href="#" class="less-padding"><i style="font-size: 24px;" class="lar la-envelope"></i></a></li>
+                  <li style="position: relative; top: -4px;"><a href="#" class="less-padding"><img src="img/flag.png"><i class="las la-angle-down i-small"></i></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav><!-- /navbar -->
       <div class="overlay"></div>
       <div class="banner-content">
         <div class="container">
@@ -110,4 +100,4 @@
           </div>
         </div> 
       </div>
-    </div><!-- /banner -->
+    </div><!-- /banner -->    <!-- welcome section -->
