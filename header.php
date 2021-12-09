@@ -69,9 +69,9 @@
               <li><a href="#">Upcoming Events</a></li>
               <li><a href="#">FAQ's</a></li>
               <li><a href="#">Member Log in</a></li>
-              <li class="hidden-xs hidden-sm"><a href="#"><div style="display: inline-block;" class="search"><i class="las la-search"></i></div></a></li>
+              <!-- <li class="hidden-xs hidden-sm"><a href="#"><div style="display: inline-block;" class="search"><i class="las la-search"></i></div></a></li>
               <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><i class="las la-globe-europe"></i></a></li>
-              <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><i style="font-size: 24px;" class="lar la-envelope"></i></a></li>
+              <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><i class="lar la-envelope"></i></a></li>
               <li class="hidden-xs hidden-sm"><a href="#" class="less-padding"><img src="img/flag.png"><i class="las la-angle-down i-small"></i></a>
               </li>
               <li>
@@ -82,7 +82,7 @@
                   <li style="position: relative; top: -4px;"><a href="#" class="less-padding"><img src="img/flag.png"><i class="las la-angle-down i-small"></i></a>
                   </li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>

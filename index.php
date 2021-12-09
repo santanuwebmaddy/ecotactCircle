@@ -39,7 +39,12 @@
         <div class="row row-flex">
           <div class="col-md-6 text-center hidden-xs">
             <div class="bp-15">
-              <img src="img/what-we-do.png" class="brand-img-lg">
+
+              <div class="eco-circle">
+                <img src="img/circle1.png" class="img-responsive circle1 view">
+                <img src="img/circle2.png" class="img-responsive circle2 view">
+                <img src="img/circle3.png" class="img-responsive circle3 view">
+              </div>
             </div>
           </div>
           <div class="col-md-5 col-xs-10 col-xs-offset-1">
@@ -55,7 +60,7 @@
                       </a>
                     </h4>
                   </div>
-                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
                       For knowledge, intelligence and inspiration.
                     </div>
@@ -176,57 +181,55 @@
         </div>
 
         <div class="row mb-30 visible-sm visible-xs">
-          <div class="owl-carousel owl-theme testimonial-carousel">
-            <div class="item">
-              <div class="circle">
-                <div class="content text-center">
-                  <img src="https://via.placeholder.com/360x360" class="mb-15">
-                  <p>Sales <br> training</p>
-                </div>
+      <div class="owl-carousel owl-theme testimonial-carousel">
+        <div class="item">
+            <!--1-->
+          <div class="circle">
+              <div class="content text-center">
+                <img src="img/clock.png" class="mb-15">
+                <p>Round-the-clock know-how to spurt your growth</p>
               </div>
-            </div>
-            <div class="item">
-              <div class="circle">
-                <div class="content text-center">
-                  <img src="https://via.placeholder.com/360x360" class="mb-15">
-                  <p>Sales <br> training</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="circle">
-                <div class="content text-center">
-                  <img src="https://via.placeholder.com/360x360" class="mb-15">
-                  <p>Sales <br> training</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="circle">
-                <div class="content text-center">
-                  <img src="https://via.placeholder.com/360x360" class="mb-15">
-                  <p>Sales <br> training</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="circle">
-                <div class="content text-center">
-                  <img src="https://via.placeholder.com/360x360" class="mb-15">
-                  <p>Sales <br> training</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="circle">
-                <div class="content text-center">
-                  <img src="https://via.placeholder.com/360x360" class="mb-15">
-                  <p>Sales <br> training</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
+        <div class="item">
+           <!--2-->
+            <div class="circle">
+              <div class="content text-center">
+                <img src="img/support.png" class="mb-15">
+                <p>Customer <br> support</p>
+              </div>
+            </div>
+        </div>
+        <div class="item">
+          <!--3-->
+        <div class="circle">
+          <div class="content text-center">
+            <img src="img/csr.png" class="mb-15">
+            <p>Partners in <br> CSR drives</p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+           <!--4-->
+        <div class="circle">
+          <div class="content text-center">
+            <img src="img/csr-honor.png" class="mb-15">
+            <p>CSR honor <br> certificates</p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <!--5-->
+        <div class="circle">
+          <div class="content text-center">
+            <img src="img/sales.png" class="mb-15">
+            <p>Sales <br> training</p>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </div> 
       </div>
     </div>
 

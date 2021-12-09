@@ -30,7 +30,43 @@
     </div><!-- /welcome section -->
 
 
-    <div class="section-sm">
+
+    
+      <div class="section-sm">
+        <div class="container">
+          <div class="row">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="title text-center mb-15">BLOG</h2>
+              </div>
+            </div>
+          </div>
+          <div class="blog-area">
+            <div class="row">
+              <?php 
+              for ($i=1; $i <=6 ; $i++) { 
+              ?>
+              <div class="col-md-6">
+                <div class="blog-list">
+                  <img src="https://via.placeholder.com/600x320" class="img-responsive">
+                  <h3>Select the best packaging solution for green coffee and food grains</h3>
+                  <ul class="list-unstyled">
+                    <li>Author: Alfrendo Cuchet</li>
+                    <li>Thursday, August 26, 2021</li>
+                  </ul>
+                </div>
+              </div>
+              <?php
+              }
+              ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+    <!-- <div class="section-sm">
       <div class="container">
         <div class="row">
           <?php
@@ -50,7 +86,7 @@
           ?>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
