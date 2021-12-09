@@ -32,7 +32,7 @@
 
 
     
-      <div class="section-sm">
+      <div class="section-sm" style="overflow: hidden;">
         <div class="container">
           <div class="row">
             <div class="row">
@@ -48,7 +48,12 @@
               ?>
               <div class="col-md-6">
                 <div class="blog-list">
-                  <img src="https://via.placeholder.com/600x320" class="img-responsive">
+                  <div class="blog-image" style="position:relative;">
+                    <img src="https://via.placeholder.com/600x320" class="img-responsive">
+                    <div class="user-dp" style="background-image: url('https://via.placeholder.com/600x320');">
+                      
+                    </div>
+                  </div>
                   <h3>Select the best packaging solution for green coffee and food grains</h3>
                   <ul class="list-unstyled">
                     <li>Author: Alfrendo Cuchet</li>

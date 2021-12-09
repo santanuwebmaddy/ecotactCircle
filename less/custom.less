@@ -1153,8 +1153,25 @@ blog
 .blog-list{
   padding-top:15px;
   padding-bottom:15px;
-  img{
-    margin-bottom: 10px;
+  .blog-image{
+    position:relative;
+    img{
+      margin-bottom: 10px;
+    }
+    .user-dp{
+      position:absolute;
+      width: 168px;
+      height: 168px;
+      border: 2px solid #ddd;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+      top: 52%;
+      left: 80%;
+      -webkit-transform: translate(-50%, -40%);
+      -ms-transform: translate(-50%, -40%);
+      transform: translate(-50%, -40%);
+    }
   }
   h3{
     font-size: 22px;
@@ -1167,9 +1184,6 @@ blog
     font-weight: 500;
   }
 }
-
-
-
 .blog{
   max-width: 360px;
   margin:0 auto;
@@ -1197,6 +1211,16 @@ blog
     p{
       font-size: 18px;
       line-height: 1.5;
+    }
+  }
+}
+@media only screen and (max-width: 767px){
+  .blog-list{
+    .blog-image{
+      .user-dp{
+        width:90px;
+        height:90px;
+      }
     }
   }
 }
